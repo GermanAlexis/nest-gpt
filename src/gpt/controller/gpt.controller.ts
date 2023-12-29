@@ -1,5 +1,5 @@
 import { Controller, Post } from '@nestjs/common';
-import { GptService } from 'src/gpt/services/gpt/gpt.service';
+import { GptService } from 'src/gpt/services/gpt.service';
 
 @Controller('gpt')
 export class GptController {
